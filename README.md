@@ -20,7 +20,7 @@ It comes from the Scholix Android app, which reads grades and timetables from al
 | **Schooly** (סקולי) | grades, weekly timetable with changes | national ID + one-time code | `scholix.schooly` | Static · Fixture | [schooly](docs/schooly.md) |
 | **Inbar** (Bar-Ilan) | grades, period schedule | SMS only | `scholix.inbar` | Live (app) · Fixture | [inbar](docs/inbar.md) |
 | **Michlol** (Bar-Ilan math dept.) | courses, grades, scanned-exam metadata | ID + password | `scholix.michlol` | App | [michlol](docs/michlol.md) |
-| **Open University** (Sheilta) | courses, assignment/exam/final grades | SSO form | `scholix.openu` | App | [openu](docs/openu.md) |
+| **Open University** (Sheilta + Opal) | courses, grades, meetings, exams, scanned exams, course sites, forums, e-books, booklets, recordings, service requests, study programs | SSO form | `scholix.openu` | App · Static | [openu](docs/openu/README.md) |
 | **Education Portal** (bagrut) | matriculation grades | *browser session required* | `scholix.eduportal` | App | [education-portal](docs/education-portal.md) |
 | **Lockerim** (לוקרים) | locker subscriptions, BLE command frames | SMS + reCAPTCHA | `scholix.lockerim` | Static · Fixture | [lockerim](docs/lockerim.md) |
 | **Lemida** (Bar-Ilan Moodle) | documentation only | Microsoft + MFA | — | App · Live | [lemida](docs/lemida.md) |
