@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Never commit captures, sessions or vendor binaries.
+*.har
+*.apk
+*.aab
+*.xapk
+*.so
+session*.json
+cookies*.json
+.env
+.env.*
